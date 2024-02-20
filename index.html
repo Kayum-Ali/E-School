@@ -14,168 +14,229 @@
     <!-- custom css -->
     <link rel="stylesheet" href="style.css">
 </head>
-      
+
 
 <body>
-     <header class="bg-[#F0FFF0]">
+    <header class="bg-[#F0FFF0]">
 
         <!-- nav bar area  -->
-        <div class="navbar container mx-auto my-7">
+        <div class="navbar container mx-auto py-7">
             <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Books</a></li>
+                        <li><a>Courses</a></li>
+                        <li><a>Others</a></li>
+                        <li><a>Blog</a></li>
+                    </ul>
                 </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <div class="flex items-center">
+                    <img src="ICON/Frame.png" alt="">
+                    <h3 class="lg:text-2xl text-xl font-bold rubik p-2">E- School</h3>
+                </div>
+            </div>
+            <div class="navbar-start hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 poppins font-bold opacity-70">
                     <li><a>Books</a></li>
                     <li><a>Courses</a></li>
                     <li><a>Others</a></li>
                     <li><a>Blog</a></li>
                 </ul>
-              </div>
-              <div class="flex items-center">
-                <img src="ICON/Frame.png" alt="">
-                <h3 class="lg:text-2xl text-xl font-bold rubik p-2">E- School</h3>
-              </div>
-            </div>
-            <div class="navbar-start hidden lg:flex">
-              <ul class="menu menu-horizontal px-1 poppins font-bold opacity-70">
-                <li><a>Books</a></li>
-                <li><a>Courses</a></li>
-                <li><a>Others</a></li>
-                <li><a>Blog</a></li>
-              </ul>
             </div>
             <div class="navbar-end">
-              <a class="btn bg-[#21B573] rounded-3xl px-5">Sing in</a>
+                <a class="btn bg-[#21B573] rounded-3xl px-5">Sing in</a>
             </div>
-          </div>  
-          
-          
-          <!-- banner part  -->
-          <div class="container mx-auto p-3 flex flex-col lg:flex-row items-center pb-12">
-               <!-- text contant -->
-              <div class="flex-1 poppins text-center lg:text-left">
-                <p class="text-[#FB6D3C] mb-3">Are you ready to Learn?</p>
-                <h2 class=" lg:text-5xl text-3xl font-bold">Learn With fun <br> on <span class="text-[#32BB7D]">any schedule</span></h2>
-                <p class="text-[##6c6b6b] opacity-80 my-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Varius blandit facilisis quam netus.</p>
-                <button class="btn bg-[#21B573] rounded-3xl text-white roboto px-7">Get Started</button>
-              </div>
-              <!-- img contant  -->
-              <div class="flex-1">
-                <img src="Photos/Illustration.png" alt="">
-              </div>
-          </div>
-     </header>
+        </div>
 
-     <main class="container mx-auto">
-         <!-- student analysis section  -->
-         <div class=" poppins flex flex-col lg:flex-row lg:gap-9 items-center  my-12  space-y-5">
-             <div class="flex flex-col items-center bg-[#F8FFFB]">
+
+        <!-- banner part  -->
+        <div class="container mx-auto p-3 flex flex-col lg:flex-row items-center pb-12">
+            <!-- text contant -->
+            <div class="flex-1 poppins text-center lg:text-left">
+                <p class="text-[#FB6D3C] mb-3">Are you ready to Learn?</p>
+                <h2 class=" lg:text-5xl text-3xl font-bold">Learn With fun <br> on <span class="text-[#32BB7D]">any
+                        schedule</span></h2>
+                <p class="text-[##6c6b6b] opacity-80 my-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit.
+                    Varius blandit facilisis quam netus.</p>
+                <button class="btn bg-[#21B573] rounded-3xl text-white roboto px-7">Get Started</button>
+            </div>
+            <!-- img contant  -->
+            <div class="flex-1">
+                <img src="Photos/Illustration.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto">
+        <!-- student analysis section  -->
+        <div class=" poppins flex flex-col lg:flex-row lg:gap-9 items-center  my-12  space-y-5">
+            <div class="flex flex-col items-center bg-[#F8FFFB]">
                 <img class="w-[30%]" src="ICON/box1.png" alt="">
                 <h3 class="text-[#66617F] text-2xl font-medium mt-4">1500+ Topic</h3>
                 <p class="opacity-80">Learn Anythings</p>
-             </div>
+            </div>
 
-             <div class="flex shadow-lg px-3 py-5 rounded-xl flex-col items-center ">
+            <div class="flex shadow-lg px-3 py-5 rounded-xl flex-col items-center ">
                 <img class="w-[40%]" src="ICON/Student.png" alt="">
                 <h3 class="text-[#66617F] text-2xl font-medium mt-4">1800+ Students</h3>
                 <p class="opacity-80">Learn Anythings</p>
-             </div>
+            </div>
 
-             <div class="flex flex-col items-center bg-[#F8FFFB]">
+            <div class="flex flex-col items-center bg-[#F8FFFB]">
                 <img class="w-[40%]" src="ICON/Test.png" alt="">
                 <h3 class="text-[#66617F] text-2xl font-medium mt-4">9K+ Test Token</h3>
                 <p class="opacity-80">Learn Anythings</p>
-             </div>
+            </div>
 
-             <div class="flex flex-col items-center bg-[#F8FFFB]">
+            <div class="flex flex-col items-center bg-[#F8FFFB]">
                 <img class="w-[40%]" src="ICON/Students.png" alt="">
                 <h3 class="text-[#66617F] text-2xl font-medium mt-4">2000+ Student</h3>
                 <p class="opacity-80">Learn Anythings</p>
-             </div>
-         </div>
+            </div>
+        </div>
 
 
 
-         <!-- online course section  -->
+        <!-- online course section  -->
 
-         <div class="mt-24 ">
+        <div class="mt-24 ">
             <h2 class="text-center poppins font-bold text-3xl">Online Courses</h2>
 
             <div class="flex gap-4 justify-between mt-8">
                 <div class="card w-96 p-4 bg-base-100 shadow-xl">
                     <figure><img src="Photos/Morder-pyschology.png" alt="Shoes" /></figure>
                     <div class="">
-                      <h2 class="text-left font-bold text-2xl mt-3"> Modern Psychology </h2>
-                      <p class="opacity-80">Designation</p>
-                      <button class="btn bg-[#21B573] rounded-3xl text-white roboto px-7 py-2 mt-4">Buy Course</button>
+                        <h2 class="text-left font-bold text-2xl mt-3"> Modern Psychology </h2>
+                        <p class="opacity-80">Designation</p>
+                        <button class="btn bg-[#21B573] rounded-3xl text-white roboto px-7 py-2 mt-4">Buy
+                            Course</button>
 
-                      <div class="flex gap-3 justify-between mt-7">
-                        <div class="flex ">
-                            <img class="w-[40%] h-[50%]" src="ICON/calendar.png" alt="">
-                            <h3 class="text-sm">Start 20  April, 2021</h3>
+                        <div class="flex gap-3 justify-between mt-7">
+                            <div class="flex ">
+                                <img class="w-[40%] h-[50%]" src="ICON/calendar.png" alt="">
+                                <h3 class="text-sm">Start 20 April, 2021</h3>
+                            </div>
+                            <div class="flex gap-2">
+                                <img class="w-[30%] h-[50%]" src="ICON/people.png" alt="">
+                                <h3>60 seats</h3>
+                            </div>
                         </div>
-                        <div class="flex gap-2">
-                            <img class="w-[30%] h-[50%]"  src="ICON/people.png" alt="">
-                            <h3>60 seats</h3>
-                        </div>
-                      </div>
                     </div>
-                  </div>
+                </div>
 
 
                 <div class="card w-96 p-4 bg-base-100 shadow-xl">
                     <figure><img src="Photos/Morder-psyc.png" alt="Shoes" /></figure>
                     <div class="">
-                      <h2 class="text-left font-bold text-2xl mt-3"> Modern Psychology </h2>
-                      <p class="opacity-80">Designation</p>
-                      <button class="btn bg-[#21B573] rounded-3xl text-white roboto px-7 py-2 mt-4">Buy Course</button>
+                        <h2 class="text-left font-bold text-2xl mt-3"> Modern Psychology </h2>
+                        <p class="opacity-80">Designation</p>
+                        <button class="btn bg-[#21B573] rounded-3xl text-white roboto px-7 py-2 mt-4">Buy
+                            Course</button>
 
-                      <div class="flex gap-3 justify-between mt-7">
-                        <div class="flex ">
-                            <img class="w-[40%] h-[50%]" src="ICON/calendar.png" alt="">
-                            <h3 class="text-sm">Start 20  April, 2021</h3>
+                        <div class="flex gap-3 justify-between mt-7">
+                            <div class="flex ">
+                                <img class="w-[40%] h-[50%]" src="ICON/calendar.png" alt="">
+                                <h3 class="text-sm">Start 20 April, 2021</h3>
+                            </div>
+                            <div class="flex gap-2">
+                                <img class="w-[30%] h-[50%]" src="ICON/people.png" alt="">
+                                <h3>60 seats</h3>
+                            </div>
                         </div>
-                        <div class="flex gap-2">
-                            <img class="w-[30%] h-[50%]"  src="ICON/people.png" alt="">
-                            <h3>60 seats</h3>
-                        </div>
-                      </div>
                     </div>
-                  </div>
+                </div>
 
 
                 <div class="card w-96 p-4 bg-base-100 shadow-xl">
                     <figure><img src="Photos/Morder-pychons.png" alt="Shoes" /></figure>
                     <div class="">
-                      <h2 class="text-left font-bold text-2xl mt-3"> Modern Psychology </h2>
-                      <p class="opacity-80">Designation</p>
-                      <button class="btn bg-[#21B573] rounded-3xl text-white roboto px-7 py-2 mt-4">Buy Course</button>
+                        <h2 class="text-left font-bold text-2xl mt-3"> Modern Psychology </h2>
+                        <p class="opacity-80">Designation</p>
+                        <button class="btn bg-[#21B573] rounded-3xl text-white roboto px-7 py-2 mt-4">Buy
+                            Course</button>
 
-                      <div class="flex gap-3 justify-between mt-7">
-                        <div class="flex ">
-                            <img class="w-[40%] h-[50%]" src="ICON/calendar.png" alt="">
-                            <h3 class="text-sm">Start 20  April, 2021</h3>
+                        <div class="flex gap-3 justify-between mt-7">
+                            <div class="flex ">
+                                <img class="w-[40%] h-[50%]" src="ICON/calendar.png" alt="">
+                                <h3 class="text-sm">Start 20 April, 2021</h3>
+                            </div>
+                            <div class="flex gap-2">
+                                <img class="w-[30%] h-[50%]" src="ICON/people.png" alt="">
+                                <h3>60 seats</h3>
+                            </div>
                         </div>
-                        <div class="flex gap-2">
-                            <img class="w-[30%] h-[50%]"  src="ICON/people.png" alt="">
-                            <h3>60 seats</h3>
-                        </div>
-                      </div>
                     </div>
-                  </div>
+                </div>
             </div>
-         </div>
+        </div>
 
 
 
-         <!-- testimonial part  -->
+        <!-- testimonial part  -->
 
-         <div class="mt-12 ">
-             <h3 class="text-center font-bold  text-3xl">Testimonial</h3>
-         </div>
-     </main>
+        <div class="mt-12 ">
+            <h3 class="text-center font-bold  text-3xl">Testimonial</h3>
+
+
+            <div class="flex gap-5 items-center justify-center w-[70%] mx-auto my-12">
+                
+                    <img class="w-[25%]" src="Photos/Man.png" alt="">
+                
+                    <h3>There are many variations of passages of Lorem Ipsum available, but themajority have suffered alteration in some form, by injected humour,or randomised words which don't look even slightly believable</h3>
+                
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer p-10 text-white bg-[#282531] ">
+        <aside>
+         
+          <p>Millions of people of all ages and from around <br>
+
+            the world are improving their lives with us</p>
+        </aside> 
+        <nav>
+          <h6 class="footer-title">Course</h6> 
+          <a class="link link-hover">Graphic Design</a>
+          <a class="link link-hover">Web Design</a>
+          <a class="link link-hover">Business</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Engineering</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Terms</h6> 
+          <a class="link link-hover">Graphic Design</a>
+          <a class="link link-hover">Web Design</a>
+          <a class="link link-hover">Business</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Engineering</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Useful Link</h6> 
+          <a class="link link-hover">Graphic Design</a>
+          <a class="link link-hover">Web Design</a>
+          <a class="link link-hover">Business</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Engineering</a>
+        </nav>
+
+        
+      </footer>
+
+      <footer class="footer footer-center p-4 bg-[#282531] text-white">
+        <aside>
+          <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+        </aside>
+      </footer>
 
 
 </body>
